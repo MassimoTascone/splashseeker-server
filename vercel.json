@@ -1,0 +1,19 @@
+{
+  "version": 2,
+  "build": [
+    {
+      "src": "./index.js",
+      "use": "@vercel/node"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/getImages/:count",
+      "dest": "./index.js"
+    },
+    {
+      "src": "/searchImages/:query/:page",
+      "dest": "./index.js"
+    }
+  ]
+}
