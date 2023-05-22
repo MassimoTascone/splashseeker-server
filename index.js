@@ -9,11 +9,14 @@ const port = process.env.PORT;
 
 // Configure CORS
 
-app.use(
-  cors({
-    origin: "https://splashseeker.vercel.app",
-  })
-);
+// app.use(
+//   cors({
+//     origin: "https://splashseeker.vercel.app",
+//   })
+// );
+
+//to remove
+app.use(cors());
 
 //Configure rate limiting
 const limiter = rateLimit({
@@ -71,5 +74,5 @@ app.get("/searchImages/:query/:page", async (req, res) => {
 
 // Start the server
 app.listen(port, () => {
-  console.log(`Server listening on port ${port}`);
+  console.log(`Server listening on port ${port} !!!!!`);
 });
