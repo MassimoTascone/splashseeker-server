@@ -46,9 +46,6 @@ For more information on the Unsplash API, please visit the [Unsplash Developer D
 
 The server for SplashSeeker is deployed on [Cyclic](https://app.cyclic.sh/) platform. Cyclic ensures that the server is always available and does not put it into sleep mode even during periods of inactivity. This means that API calls to fetch data from the server will consistently perform as expected without any delay.
 
-For more information about Render and their hosting services, please visit the [Render website](https://render.com/).
-
-
 ## Frontend
 
 For information about the frontend of the SplashSeeker application, please refer to the [main repository](https://github.com/MassimoTascone/splashseeker).
