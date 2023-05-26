@@ -1,7 +1,7 @@
 [![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)](https://nodejs.org/)
 [![Express](https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white)](https://expressjs.com/)
 [![Axios](https://img.shields.io/badge/Axios-007ACC?style=for-the-badge&logo=axios&logoColor=white)](https://github.com/axios/axios)
-[![Render](https://img.shields.io/badge/Render-222222?style=for-the-badge&logo=render&logoColor=white)](https://render.com/)
+[![Cyclic](https://img.shields.io/badge/Cyclic-212121?style=for-the-badge&logo=cyclic&logoColor=white)](https://app.cyclic.sh/#/)
 
 
 
@@ -44,7 +44,7 @@ For more information on the Unsplash API, please visit the [Unsplash Developer D
 
 ### Deployment
 
-The server for SplashSeeker is deployed using the Render platform. Render offers a free subscription tier that may put the server into sleep mode after a period of inactivity. As a result, the initial API call to fetch data from the server after a period of inactivity may take longer than usual as the server wakes up. Subsequent API calls will perform as expected. Please note that this behavior is specific to the free subscription tier of Render and does not impact the functionality of the application.
+The server for SplashSeeker is deployed on [Cyclic](https://app.cyclic.sh/) platform. Cyclic ensures that the server is always available and does not put it into sleep mode even during periods of inactivity. This means that API calls to fetch data from the server will consistently perform as expected without any delay.
 
 For more information about Render and their hosting services, please visit the [Render website](https://render.com/).
 
